@@ -1,7 +1,7 @@
 const fs = require('fs/promises');
 const axios = require('axios');
 
-const reffCode = "OwAG3kib1ivOJG4Y0OCZ8lJETa6ypvsDtGmdhcjA";
+const reffCode = "OwAG3kib1ivOJG4Y0OCZ8lJETa6ypvsDtGmdhcjB";
 
 async function readAccounts(filePath) {
     try {
