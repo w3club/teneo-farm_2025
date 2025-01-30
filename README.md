@@ -43,7 +43,7 @@ cd teneo-farm
 ```bash
 npm install
 ```
-- Run the script
+- Run the script its only for 1 account - run multy below for multiple accounts
 ```bash
 node main.js
 ```
@@ -57,17 +57,21 @@ node main.js
     nano proxies.txt
     ```
     
-### Auto get tokens: 
+### Auto get tokens if you dont want put it manually: 
 - fill `accounts.txt` format : `test@gmail.com|password123` 1 line 1 account
     ```bash
     nano accounts.txt
     ```
 - run to get tokens
     ```bash
-    node getToken.js
+    node getToken
     ```
 
 - Start multy accounts
     ```bash
-    node multy.js
+    node multy
     ```
+
+## ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+This project is licensed under the [MIT License](LICENSE).
