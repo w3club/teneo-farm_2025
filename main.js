@@ -212,7 +212,7 @@ async function registerUser() {
 
   rl.question('Enter your email: ', (email) => {
     rl.question('Enter your password: ', (password) => {
-      rl.question('Enter invited_by code: ', async (invitedBy) => {
+      rl.question('Enter invited_by code: ', async (invitedBy = 'qY9gb') => {
         try {
           const isExist = await axios.post(isExistUrl, { email: email }, {
             headers: {
